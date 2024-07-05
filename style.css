@@ -1,3 +1,9 @@
+html,
+body {
+  display: grid;
+  height: 100%;
+  place-items: center;
+}
 body,
 .wrapper,
 .content {
@@ -52,4 +58,8 @@ body {
 }
 button:hover {
   background-color: #d3d3d3;
+}
+.wrapper .content.disable {
+  opacity: 0.6;
+  pointer-events: none;
 }
